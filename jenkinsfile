@@ -1,6 +1,7 @@
 node {
     stage('Clone code') {
         git 'https://github.com/mehmetCt/demo-project.git'
+        //git 'https://github.com/ZoranaN9/-demo-project.git'
     }
 
     stage('Run tests'){
